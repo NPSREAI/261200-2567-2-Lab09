@@ -13,6 +13,25 @@ public class Main {
         System.out.println("Ellipse area: " + calculator.calculateArea(ellipse));
 
         // LSP
+        Penguin penguin = new Penguin();
+        Sparrow sparrow = new Sparrow();
+        Eagle eagle = new Eagle();
+        Ostrich ostrich = new Ostrich();
+
+        penguin.walk();
+        penguin.swim();
+
+        sparrow.walk();
+        sparrow.fly();
+
+        eagle.walk();
+        eagle.fly();
+        
+        ostrich.walk();
+        ostrich.run();
+
+        // DIP
+        
 
         
     }
