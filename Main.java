@@ -31,8 +31,8 @@ public class Main {
         ostrich.run();
 
         // DIP
-        
-
-        
+        Order order = new Order();
+        OrderProcessor orderProcessor = new OrderProcessor(new EmailNotifier());
+        orderProcessor.processOrder(order);    
     }
 }
